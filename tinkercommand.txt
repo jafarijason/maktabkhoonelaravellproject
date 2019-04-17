@@ -1,0 +1,25 @@
+add this code in
+use Illuminate\Support\Facades\Schema;
+appproviderservice
+//------------------------
+
+
+php artisan tinker
+
+$book = new  App\Book;
+
+$book->name = 'book1';
+$book->pages = 20;
+$book->ISBN = 'ISBN1';
+$book->price = 100;
+$book->published_at = '2019-04-17';
+$book->save();
+///------------
+
+
+
+ App\Book::create(['name'=>'book2' , 'pages'=> 30 , 'ISBN'=> 'ISBN2' , 'price' => 150 , 'published_at'=> '2019-01-01']);
+  App\Book::create(['name'=>'book3' , 'pages'=> 34 , 'ISBN'=> 'ISBN3' , 'price' => 20 , 'published_at'=> '2019-02-01']);
+   App\Book::create(['name'=>'book4' , 'pages'=> 35 , 'ISBN'=> 'ISBN4' , 'price' => 10 , 'published_at'=> '2019-03-01']);
+    App\Book::create(['name'=>'book5' , 'pages'=> 46 , 'ISBN'=> 'ISBN5' , 'price' => 110 , 'published_at'=> '2019-03-01']);
+
